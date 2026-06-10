@@ -1,12 +1,12 @@
 const express = require("express");
 const app = express();
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // Middleware to read JSON
 app.use(express.json());
 
-// Fake database (in-memory)
+// data for demo
 let products = [
   { id: 1, name: "Laptop", price: 800 },
   { id: 2, name: "Phone", price: 500 },
