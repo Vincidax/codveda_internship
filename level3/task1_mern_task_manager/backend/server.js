@@ -14,7 +14,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://codveda-internship-one.vercel.app/",
+    origin: "*",
   }),
 );
 app.use(express.json());
