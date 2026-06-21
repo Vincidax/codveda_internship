@@ -55,23 +55,6 @@ Tasks:
 - PUT /api/tasks/:id
 - DELETE /api/tasks/:id
 
-## Project Structure
-
-task1_mern_task_manager/
-│
-├── README.md
-├── frontend/ # React App
-│ ├── src/
-│ ├── pages/
-│ ├── components/
-│ └── services/
-│
-├── backend/ # Express API
-│ ├── controllers/
-│ ├── models/
-│ ├── routes/
-│ └── middleware/
-
 ## 👨‍💻 Author
 
 Vincent DUSHIME
