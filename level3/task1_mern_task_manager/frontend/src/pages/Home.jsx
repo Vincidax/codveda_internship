@@ -41,7 +41,7 @@ function Home() {
           </Link>
 
           <Link
-            to="/"
+            to="/login"
             className="border border-slate-400 px-6 py-3 rounded-lg hover:bg-white"
           >
             Login
